@@ -50,14 +50,14 @@
     .banner-right-img img {
         width: 25.9rem;
         height: auto;
-        top: 0rem;
-        left: 0rem;
+        top: 1rem;
+        left: 8rem;
         position: absolute;
     }
     .banner-right .banner-box-right{
         position: absolute;
-        left: 14.7rem;
-        top: 3rem;
+        left: 23.7rem;
+        top: 4rem;
     }
     .banner-right .banner-box-left{
         padding-left: .8rem;
@@ -91,7 +91,7 @@
     }
     .banner-right .banner-box-left {
         top: 18rem;
-        left: -1rem;
+        left: 3rem;
         padding-left: 2.4rem;
         padding-top: 1.6rem;
         text-align: left;
