@@ -479,7 +479,114 @@ main .c-habits {
         background-color: rgba(0, 71, 255, 0.307);
         z-index: 1;
 }
-
+/* BMI calculator section */
+.bmi-calculator {
+    padding: 3.8rem 0;
+}
+.calculator-text h2 {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 3.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.calculator-text p {
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: .03rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.caculator-form-section {
+    width: 144.0rem;
+    height: 38.7rem;
+    background: rgb(34,34,34);
+}
+.caculator-form-section {
+    padding: 4.4rem;
+}
+.caculator-form-section h3 { 
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.calculator-section {
+    display: flex;
+    justify-content: space-between;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid rgba(225,225,225,0.1);
+}
+th, td {
+    padding: .8rem;
+    text-align: center;
+}
+th {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+}
+td {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+}
+.calculate-text h3 {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.calculate-text p {
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: .03rem;
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+.c-form-input {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+.c-form-input div,
+.c-form-input-full {
+    flex: 1;
+}
+.c-form-input-full {
+    margin-bottom: 1.5rem;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 1.4rem;
+    border: .1rem solid var(--secondary-color);
+    border-radius: .4rem;
+    font-size: 1rem;
+}
+.calculate-btn {
+    border-radius: 4.2rem;
+    background: var(--tartiary-color);
+    border: none;
+    padding: .8rem 1.6rem;
+}   
+ 
 
 
 

@@ -130,4 +130,59 @@
         width: 18.6rem;
         height: 16.2rem;
     }
+    /* training and exercises responsive */
+    .train-exercise-text h3 {
+        font-size: 2.8rem;
+    }
+    .train-exercise-text p {
+        font-size: 1.2rem;
+    }
+    .train-frist-row,
+    .train-second-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .train-frist-row img,
+    .train-second-row img {
+        width: 100%;
+        height: 15rem;
+    }
+    .train-frist-row .train-exercise-transform span {
+        top: 2rem;
+        margin-left: 1.4rem;
+    }
+    .train-frist-row .train-exercise-achieve span {
+        top: 8rem;
+        margin-left: 2.4rem;
+    }
+    .train-frist-row .train-exercise-health span {
+        top: 17rem;
+        margin-left: 0.4rem;
+    }
+    .train-exercise-customize span {
+        top: -7rem;
+        left: 3rem;
+    }
+    .train-exercise-strength span {
+        top: 3rem;
+        left: 25rem;
+    }
+    .train-exercise-fitness span {
+        top: -4rem;
+        left: 3rem;
+    }
+    .train-exercise-achieve,
+    .train-exercise-customize {
+        grid-column: span 1;
+    }
+    .train-frist-row {
+        flex-direction: column;
+    }
+    .caculator-form-section {
+        width: 100%;
+        height: auto;
+    }
+    .calculator-section {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
