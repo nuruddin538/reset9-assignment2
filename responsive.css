@@ -185,4 +185,13 @@
         flex-direction: column;
         gap: 1rem;
     }
+    /* team section resposive */
+    .team-img-frist {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .team-img-second {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 }
