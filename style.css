@@ -35,7 +35,8 @@ ul li {
     margin: 0 auto;
 }
 section {
-    padding: 4rem 0;
+    padding: 3rem 0;
+    color: #fff;
 }
 .btn,
 .btn:link,
@@ -53,7 +54,7 @@ section {
 /* header section */
 header .bg-header {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(180deg, rgb(17,17,17), rgba(119,119,119, 0));
 }
 header .nav-content {
@@ -97,8 +98,8 @@ header .nav-content {
     display: flex;
     justify-content: flex-start;
     gap: 3rem;
-    width: 100%;
-    height: 100vh;
+    width: 39.3rem;
+    height: 102.4rem;
 }
 .banner-left {
     padding-top: 6rem;
@@ -152,9 +153,9 @@ header .nav-content {
 }
 .banner-right-img img {
     width: 34.9rem;
-    height: auto;
+    height: 58rem;
     top: -6rem;
-    left: 23.7rem;
+    left: 18.7rem;
     position: absolute;
 }
 .banner-right .banner-box-right,
@@ -172,7 +173,7 @@ header .nav-content {
 }
 .banner-right .banner-box-right{
     position: absolute;
-    left: 46.7rem;
+    left: 39.7rem;
     top: 6rem;
 }
 .banner-right .banner-box-left {
@@ -216,5 +217,62 @@ header .nav-content {
     border-radius: 50%;
     margin-top: 2.2rem;
 }
+/* main section responsive */
+main .habits-section {
+    padding: 4rem 0;
+}
+main .c-habits {
+    color: #fff;
+}
+.c-habits .c-habits-text h2 {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 3.8rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 2rem 0;
+}
+.c-habits .c-habits-text p {
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: .03rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.c-habits-profile {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.4rem;
+    text-align: center;
+}
+.c-habits-profile .c-habits-content img {
+    width: 15.0rem;
+    height: 15.0rem;
+    border-radius: 50%;
+}
+.c-habits-content h3 {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+.c-habits-content span {
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: .03rem;
+    text-align: center;
+}
+
+
+
 
 
