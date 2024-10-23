@@ -194,4 +194,18 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    /* footer responsive */
+    .footer-section {
+        width: 100%;
+        height: auto;
+    }
+    .footer-reserve hr {
+        margin: 1rem 0;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-reserve p {
+        text-align: left;
+    }
 }
