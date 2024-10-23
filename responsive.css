@@ -1,0 +1,100 @@
+/* mobile size responsive */
+
+@media (max-width: 576px) {
+    /* header section resposive */
+    .nav-menu ul {
+        display: none;
+    }
+    .nav-logo h2 {
+        font-size: 2.6rem;
+    }
+    .nav-menu .menu-icon {
+        display: block;
+        color: #fff;
+        font-size: 2rem;
+        margin-top: -1.4rem;
+    }
+    /* banner section */
+    .banner-section {
+        display: block;
+    }
+    .banner-left {
+        padding-top: 0rem;
+    }
+    .banner-left h1 {
+        font-size: 3.6rem;
+        margin: -2.6rem 0;
+        margin-bottom: 2rem;
+    }
+    .banner-left p {
+        font-size: 1.4rem;
+    }
+    .banner-l-btn {
+        display: flex;
+    }
+    .banner-l-btn .banner-left-btn,
+    .banner-l-btn .banner-right-btn {
+        font-size: .9rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+    }
+    .banner-right-img img {
+        width: 34.9rem;
+        height: auto;
+        top: 0rem;
+        left: 0rem;
+    }
+    .banner-right {
+        margin-top: 2rem;
+    }
+    .banner-right-img img {
+        width: 25.9rem;
+        height: auto;
+        top: 0rem;
+        left: 0rem;
+        position: absolute;
+    }
+    .banner-right .banner-box-right{
+        position: absolute;
+        left: 14.7rem;
+        top: 3rem;
+    }
+    .banner-right .banner-box-left{
+        padding-left: .8rem;
+    }
+    .banner-right .banner-box-right{
+        padding-left: .8rem;
+    }
+    .banner-right .banner-box-right,
+    .banner-right .banner-box-left {
+        width: 13.3rem;
+        height: 6.5rem;
+    }
+    .banner-right .banner-box-right h2,
+    .banner-right .banner-box-left h2 {
+        font-size: 1.6rem;
+        line-height: 0.1rem;
+        letter-spacing: .01rem;
+        margin-top: .8rem;
+        margin-bottom: .2rem;
+    }
+    .banner-right .banner-box-right span,
+    .banner-right .banner-box-left span {
+        font-size: .8rem;
+        line-height: 1.4rem;
+        letter-spacing: .0.8rem;
+    }
+    .banner-box-left .box-circle {
+        width: 2rem;
+        height: 2rem;
+        margin-top: .5rem;
+    }
+    .banner-right .banner-box-left {
+        top: 18rem;
+        left: -1rem;
+        padding-left: 2.4rem;
+        padding-top: 1.6rem;
+        text-align: left;
+    }
+
+}
